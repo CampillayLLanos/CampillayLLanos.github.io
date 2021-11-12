@@ -1,9 +1,15 @@
-name: "my-website"
+name: "Modelos biomatemáticos"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Biomatemática"
   left:
-    - text: "Home"
+    - text: "Modelos matemáticos"
       href: index.html
-    - text: "About"
+    - text: "Modelos estadísticos"
       href: about.html
+      
+output:
+  html_document:
+    theme: united
+    highlight: textmate
+   
